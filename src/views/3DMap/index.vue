@@ -1,10 +1,10 @@
 <template>
-  $END$
+  <div>三维地图</div>
 </template>
 
 <script>
   export default {
-    name: "index"
+    name: "three-dMap"
   }
 </script>
 

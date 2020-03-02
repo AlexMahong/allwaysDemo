@@ -1,10 +1,10 @@
 <template>
-  $END$
+  <div>日志记录1</div>
 </template>
 
 <script>
   export default {
-    name: "index"
+    name: "logging"
   }
 </script>
 
