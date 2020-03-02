@@ -1,10 +1,17 @@
 <template>
-  <div>日志记录1</div>
+  <div>
+    <Button @click="throwError">Default</Button>
+  </div>
 </template>
 
 <script>
   export default {
-    name: "logging"
+    name: "logging",
+    methods: {
+      throwError(){
+        this.run();
+      }
+    }
   }
 </script>
 
